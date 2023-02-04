@@ -1,0 +1,79 @@
+/* GENERAL */ 
+
+ *, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+html {
+    user-select: none;
+}
+
+body {
+   
+    background: #5C258D;
+    background: -webkit-linear-gradient(to right, #4389A2, #510c8d);
+    background: linear-gradient(to right, #4389A2, #510c8d);
+}
+
+button {
+    color: white;
+    font-weight: bolder;
+    font-size: 1.3em;
+    letter-spacing: 5px;
+    padding: 5px;
+    min-height: 70px;
+    width: 60%;
+    max-width: 600px;
+    margin-top: 40px;
+    background: #ff9966;
+    background: -webkit-linear-gradient(to right, #ff5e62, #ffad84);
+    background: linear-gradient(to right, #ff5e62, #ffad84);
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+
+.container {
+    max-width: 800px;
+    width: 90%;
+    margin: 40px auto;
+    border-radius: 10px;
+    border:1px solid #777;
+    background-color: white;
+}
+
+h1 {
+    font-size: 1.4em;
+    text-transform: uppercase;
+    color:#777;
+    padding: 15px; 
+}
+
+h2 {
+    color: rgb(66, 66, 66);
+}
+
+span {
+    color: coral;
+}
+
+@media screen and (min-width:600px)
+{
+    button {
+        font-size: 1.8em;
+        margin-top: 80px;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 1.8em;
+    }
+    .container {
+        margin: 100px auto;
+    }
+
+}
